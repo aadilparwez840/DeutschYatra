@@ -1,6 +1,5 @@
-// Replace these placeholders with your Supabase project values.
-// Keep the publishable/anon key only; never put a service_role/secret key in frontend code.
+/* Browser-safe config only. Never put a service_role or secret key here. */
 window.DEUTSCHYATRA_SUPABASE = {
-  url: "YOUR_SUPABASE_URL",
-  publishableKey: "YOUR_SUPABASE_PUBLISHABLE_KEY"
+  url: 'YOUR_SUPABASE_PROJECT_URL',
+  publishableKey: 'YOUR_SUPABASE_PUBLISHABLE_OR_ANON_KEY'
 };
